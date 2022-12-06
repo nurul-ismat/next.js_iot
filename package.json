@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.6.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2",
+    "mqtt": "^4.3.7",
+    "next": "^13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@types/uuid": "^8.3.4",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.8.4"
+  },
+  "name": "iot-pusat",
+  "description": "This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
+}
